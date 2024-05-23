@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_status"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal"
+    >
+    <LinearLayout
+        android:id="@+id/rl_title_part"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="6dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_weight="7">
+
+        <ImageView
+            android:id="@+id/title_part"
+            android:layout_width="24px"
+            android:layout_height="24px"
+            android:src="@drawable/no_network"
+            android:visibility="gone"
+            android:layout_marginRight="10px"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="-5dp"
+            ></ImageView>
+
+            <com.renhejia.robot.launcher.statusbar.BatteryCharging
+                android:id="@+id/bcCharging"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="wrap_content"></com.renhejia.robot.launcher.statusbar.BatteryCharging>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="32"></View>
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="0dp"-->
+<!--        -->
+<!--        ></RelativeLayout>-->
+
+    <TextView
+        android:id="@+id/bottom_part"
+        android:layout_width="match_parent"
+        android:gravity="top|center_horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:textColor="@color/white50"
+        android:textSize="25sp"></TextView>
+
+
+
+</LinearLayout>

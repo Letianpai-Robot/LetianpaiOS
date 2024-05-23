@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+
+    <LinearLayout
+        android:layout_marginTop="140px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="54px"
+            android:layout_height="54px"
+            android:src="@drawable/round"></ImageView>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_marginLeft="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/fans_name_title_size"
+            android:text="我是一个PM">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <View style="@style/spaceViewV"></View>
+
+    <TextView
+        android:id="@+id/tv_fans_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="1423.1w"
+        android:textColor="@color/white"
+        android:textSize="110sp"
+        android:textStyle="bold"></TextView>
+
+    <View style="@style/spaceViewV"></View>
+
+    <ImageView
+        android:id="@+id/iv_fans"
+        android:layout_width="201px"
+        android:layout_height="34px"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="130px"
+        android:src="@drawable/bili_fans"></ImageView>
+
+</LinearLayout>

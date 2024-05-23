@@ -1,0 +1,77 @@
+{
+  "info": {
+    "version": 0,
+    "name": "",
+    "length": 2
+  },
+  "gesture": [
+    {
+      "tts": {
+        "content": "",
+        "timbre": "",
+        "status": 0
+      },
+      "face": {
+        "face": "XXX",
+        "filePrefix": "",
+        "times": 1
+      },
+      "foot": {
+        "motion": "",
+        "number": 0,
+        "speed": 0,
+        "times": 1
+      },
+      "ear": {
+        "motion": "",
+        "step": 1,
+        "speed": 2,
+        "times": 1
+      },
+      "light": {
+        "color": 1,
+        "status": 0,
+        "times": 1
+      },
+      "sound": {
+        "name": "ssss.mp3",
+        "times": 1
+      },
+      "interval": 2000
+    },
+    {
+      "tts": {
+        "content": "",
+        "timbre": "",
+        "status": 0
+      },
+      "face": {
+        "face": "XXX",
+        "filePrefix": "",
+        "times": 1
+      },
+      "foot": {
+        "motion": "",
+        "number": 0,
+        "speed": 0,
+        "times": 1
+      },
+      "ear": {
+        "motion": "",
+        "step": 1,
+        "speed": 2,
+        "times": 1
+      },
+      "light": {
+        "color": 1,
+        "status": 0,
+        "times": 1
+      },
+      "sound": {
+        "name": "ssss.mp3",
+        "times": 1
+      },
+      "interval": 2000
+    }
+  ]
+}

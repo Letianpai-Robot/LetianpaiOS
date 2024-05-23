@@ -1,0 +1,66 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.renhejia.robot.launcher'
+    compileSdk 27
+
+    defaultConfig {
+        applicationId "com.renhejia.robot.launcher"
+        minSdk 24
+        targetSdk 28
+        versionCode 202405162
+        versionName "1.1."+ versionCode
+    }
+
+    signingConfigs {
+        config {
+            storeFile file('../keystore/letianpai.jks')
+            keyAlias 'letianpai'
+            keyPassword 'letianpai0801'
+            storePassword 'letianpai0801'
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.config
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+        release {
+            signingConfig signingConfigs.config
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lint {
+        baseline = file("lint-baseline.xml")
+    }
+
+}
+
+dependencies {
+
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    api project(':LeTianPaiLauncherBusinessLib')
+    api project(':CommandLib')
+    api project(':GestureFactory')
+    api project(':guideLib')
+    api project(':expression')
+    api project(':displayview')
+    api project(':GeeUINotice')
+
+    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+    implementation 'com.squareup.okio:okio:1.13.0'
+
+
+}

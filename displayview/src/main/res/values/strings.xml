@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LTPClockView</string>
+    <string name="unlock_dialog_description">完成任务获得经验值\n来解锁表盘与漫画</string>
+    <string name="unlock_dialog_to_complete">去完成</string>
+    <string name="select_picture">选择图片</string>
+    <string name="temperature_degrees">\u2103</string>
+    <string name="skin_store_center">表盘中心</string>
+</resources>

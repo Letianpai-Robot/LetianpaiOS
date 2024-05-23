@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_remote"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:layout_weight="1"></View>
+
+
+    <ImageView
+        android:id="@+id/remote_image"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/remote_change"></ImageView>
+
+    <TextView
+        android:id="@+id/remote_text"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:text="@string/remote_start"
+        android:background="@android:color/transparent"></TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:layout_weight="1"></View>
+
+</LinearLayout>

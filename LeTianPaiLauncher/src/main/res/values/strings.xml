@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RHJLauncher</string>
+    <string name="next_step">next</string>
+    <string name="battery_low">Low battery, please charge</string>
+    <string name="wifi_is_disconnect">Wi-Fi is disconnected</string>
+    <string name="remote_start">Remote transformation is about to start</string>
+    <string name="countdown">Time countdown</string>
+    <string name="countdown_finish">The timer has ended, totaling %s, %s, %s</string>
+    <string name="countdown_finish1">Timing ended\n</string>
+    <string name="hour">hour</string>
+    <string name="minute">minute</string>
+    <string name="second">second</string>
+</resources>

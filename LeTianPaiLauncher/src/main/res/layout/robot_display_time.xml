@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="68px"
+        android:layout_marginTop="128px"
+        android:layout_marginRight="68px"
+        android:layout_marginBottom="128px"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-12sp"
+            android:textColor="@color/white"
+            android:textSize="40sp"></TextView>
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/tv_time"-->
+        <!--            android:layout_marginTop="-12px"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:textSize="170sp">-->
+        <!--        </TextView>-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="-6px"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_time_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="170sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="6px"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/colon"></ImageView>
+
+            <TextView
+                android:id="@+id/tv_time_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="170sp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center_horizontal"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            android:layout_marginTop="-12px"-->
+        <!--            android:layout_marginRight="10dp"-->
+        <!--            android:gravity="center_vertical"-->
+        <!--            android:orientation="horizontal">-->
+
+        <!--            <ImageView-->
+        <!--                android:id="@+id/iv_weather"-->
+        <!--                android:layout_width="31px"-->
+        <!--                android:layout_height="31px"-->
+        <!--                ></ImageView>-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_weather"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="10dp"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textSize="32sp"></TextView>-->
+
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-12px"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_location"
+            android:layout_width="31px"
+            android:layout_height="31px"
+            android:visibility="gone"
+            android:src="@drawable/location"></ImageView>
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="32sp"></TextView>
+
+<!--        <View style="@style/spaceViewH"></View>-->
+
+        <ImageView
+            android:id="@+id/iv_weather"
+            android:layout_width="31px"
+            android:layout_height="31px"></ImageView>
+
+        <TextView
+            android:id="@+id/tv_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="32sp"></TextView>
+
+
+    </LinearLayout>
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:layout_marginLeft="10dp"-->
+    <!--            android:layout_marginRight="10dp"-->
+    <!--            android:gravity="center_vertical">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="31px"-->
+    <!--                android:layout_height="31px"-->
+    <!--                android:src="@drawable/weather"-->
+    <!--                ></ImageView>-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/tv_weather"-->
+    <!--                android:layout_marginLeft="10dp"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="32sp"-->
+    <!--                ></TextView>-->
+
+    <!--            <View style="@style/spaceViewH"></View>-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="31px"-->
+    <!--                android:layout_height="31px"-->
+    <!--                android:src="@drawable/notice_time"-->
+    <!--                android:visibility="invisible"-->
+    <!--                ></ImageView>-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/tv_notice"-->
+    <!--                android:layout_marginLeft="5dp"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="32sp"-->
+    <!--                android:visibility="invisible"-->
+    <!--                ></TextView>-->
+
+    <!--        </LinearLayout>-->
+
+
+</LinearLayout>
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_marginTop="133px"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        android:gravity="center_vertical"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/iv_icon"-->
+    <!--            android:layout_width="54px"-->
+    <!--            android:layout_height="54px"-->
+    <!--            android:src="@drawable/round"></ImageView>-->
+
+    <!--        <TextView-->
+    <!--            android:layout_marginTop="133px"-->
+    <!--            android:id="@+id/tv_name"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="@dimen/fans_name_title_size"-->
+    <!--            android:text="我是一个PM">-->
+
+    <!--        </TextView>-->
+
+    <!--    </LinearLayout>-->
+
+    <!--    <View style="@style/spaceViewV"></View>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tv_fans_num"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        android:text="1423.1w"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="110sp"-->
+    <!--        android:textStyle="bold"></TextView>-->
+
+    <!--    <View style="@style/spaceViewV"></View>-->
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="201px"-->
+    <!--        android:layout_height="34px"-->
+    <!--        android:layout_marginTop="10sp"-->
+
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        android:layout_marginBottom="130px"-->
+    <!--        android:src="@drawable/bili_fans"></ImageView>-->
+
+    </LinearLayout>

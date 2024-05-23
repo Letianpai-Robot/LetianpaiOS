@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center">
+
+    <com.renhejia.robot.launcher.displaymode.DisplayModesView
+        android:id="@+id/display_modes_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"/>
+
+    <com.renhejia.robot.expression.ui.view.RobotExpressionViewGif
+        android:id="@+id/rview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/tv_alarm_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90sp"
+        android:text="08:00"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <com.renhejia.robot.launcher.shutup.ShutdownView
+        android:id="@+id/shutdown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+
+    <ImageView
+        android:id="@+id/sleep"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sleep"
+        android:visibility="gone"/>
+
+    <com.renhejia.robot.launcher.main.view.RobotTestAnimationView
+        android:id="@+id/robot_sleep_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/rl_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+<!--        <com.renhejia.robot.display.ui.RobotDisplayView-->
+<!--            android:id="@+id/rdv_display"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:visibility="visible">-->
+
+<!--        </com.renhejia.robot.display.ui.RobotDisplayView>-->
+
+
+<!--        <com.renhejia.robot.guidelib.viewpager.GuideViewPager-->
+<!--            android:id="@+id/vp_guide"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+<!--        </com.renhejia.robot.guidelib.viewpager.GuideViewPager>-->
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

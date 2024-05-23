@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_left_view_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        style="@style/calendarLin"
+        android:layout_marginTop="91px">
+
+        <TextView
+            android:id="@+id/tv_notice_time1"
+            style="@style/calendarTime"
+            android:text="今天 15：00">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_notice_name1"
+            style="@style/calendarTitle"
+            android:text="去超市买菜，要买白萝卜"></TextView>
+
+    </LinearLayout>
+
+    <View style="@style/spaceViewV"></View>
+
+    <LinearLayout style="@style/calendarLin">
+
+
+        <TextView
+            android:id="@+id/tv_notice_time2"
+            style="@style/calendarTime"
+            android:text="今天 15：00">
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/tv_notice_name2"
+            style="@style/calendarTitle"
+            android:text="去超市买菜，要买白萝卜"></TextView>
+
+    </LinearLayout>
+
+    <View style="@style/spaceViewV"></View>
+
+    <LinearLayout
+        style="@style/calendarLin"
+        android:layout_marginBottom="91px">
+
+        <TextView
+            android:id="@+id/tv_notice_time3"
+            style="@style/calendarTime"
+            android:text="今天 15：00">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_notice_name3"
+            style="@style/calendarTitle"
+            android:text="去超市买菜，要买白萝卜"></TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

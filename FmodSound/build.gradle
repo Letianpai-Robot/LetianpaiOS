@@ -1,0 +1,24 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+//            version "3.10.2"
+        }
+    }
+}
+
+dependencies {
+    api files('libs/fmod.jar')
+}

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/excited_start_0"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_2"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_4"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_6"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_8"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_10"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_12"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_14"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_16"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_18"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_20"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_22"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_24"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_26"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_28"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_30"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_32"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_34"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_36"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_38"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_40"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_42"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_start_44"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_00"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_02"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_04"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_06"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_08"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_10"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_12"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_14"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_16"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_18"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_20"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_22"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_24"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_26"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_28"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_30"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_32"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_34"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_36"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_38"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_40"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_42"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_44"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_46"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_48"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_50"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_52"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_54"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_56"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_58"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_60"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_62"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_64"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_66"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_68"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_70"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_72"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/exciting_74"
+        android:duration="33" />
+
+
+
+
+
+    <item
+        android:drawable="@drawable/excited_end_00"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_02"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_04"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_06"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_08"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_10"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_12"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_14"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_16"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_18"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_20"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_22"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_24"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_26"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_28"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_29"
+        android:duration="33" />
+
+    <item
+        android:drawable="@drawable/excited_end_20"
+        android:duration="33" />
+
+
+
+
+</animation-list>

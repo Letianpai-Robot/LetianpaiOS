@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation duration="143">
+    <frame drawable="ku_0.png" frames="1" />
+    <frame drawable="ku_1.png" frames="1" />
+    <frame drawable="ku_2.png" frames="1" />
+    <frame drawable="ku_3.png" frames="1" />
+    <frame drawable="ku_4.png" frames="1" />
+    <frame drawable="ku_5.png" frames="1" />
+    <frame drawable="ku_6.png" frames="1" />
+    <frame drawable="ku_7.png" frames="1" />
+    <frame drawable="ku_8.png" frames="1" />
+    <frame drawable="ku_9.png" frames="1" />
+    <frame drawable="ku_10.png" frames="1" />
+    <frame drawable="ku_11.png" frames="1" />
+    <frame drawable="ku_12.png" frames="1" />
+    <frame drawable="ku_13.png" frames="1" />
+</animation> 

@@ -1,0 +1,132 @@
+[
+  {
+    "earAction": {
+      "antenna_motion": "turn"
+    },
+    "expression": {
+      "face": "stand_yellow"
+    },
+    "footAction": {
+      "motion": "robot_foundpeo",
+      "number": 2,
+      "speed": 0
+    },
+    "interval": 0,
+    "soundEffects": {
+      "sound": "hello"
+    },
+    "ttsInfo": {
+      "tts": ""
+    },
+    "antennalight": {
+      "antenna_light": "on",
+      "antenna_light_color": 1
+    },
+    "endGesture": false,
+    "expressionTime": 0
+  },
+  {
+    "earAction": {
+      "antenna_motion": "setStraight"
+    },
+    "expression": {
+      "face": "squintLeftDown"
+    },
+    "footAction": {
+      "motion": "left",
+      "number": 2,
+      "speed": 0
+    },
+    "interval": 0,
+    "soundEffects": {
+      "sound": "surprise"
+    },
+    "ttsInfo": {
+      "tts": ""
+    },
+    "antennalight": {
+      "antenna_light": "on",
+      "antenna_light_color": 2
+    },
+    "endGesture": false,
+    "expressionTime": 0
+  },
+  {
+    "earAction": {
+      "antenna_motion": "turn"
+    },
+    "expression": {
+      "face": "haveNoChoice"
+    },
+    "footAction": {
+      "motion": "right",
+      "number": 2,
+      "speed": 0
+    },
+    "interval": 0,
+    "soundEffects": {
+      "sound": "shy"
+    },
+    "ttsInfo": {
+      "tts": ""
+    },
+    "antennalight": {
+      "antenna_light": "on",
+      "antenna_light_color": 3
+    },
+    "endGesture": false,
+    "expressionTime": 0
+  },
+  {
+    "earAction": {
+      "antenna_motion": "setStraight"
+    },
+    "expression": {
+      "face": "think"
+    },
+    "footAction": {
+      "motion": "backend",
+      "number": 2,
+      "speed": 0
+    },
+    "interval": 0,
+    "soundEffects": {
+      "sound": "sleep"
+    },
+    "ttsInfo": {
+      "tts": ""
+    },
+    "antennalight": {
+      "antenna_light": "on",
+      "antenna_light_color": 4
+    },
+    "endGesture": false,
+    "expressionTime": 3
+  },
+  {
+    "earAction": {
+      "antenna_motion": "setStraight"
+    },
+    "expression": {
+      "face": "think"
+    },
+    "footAction": {
+      "motion": "backend",
+      "number": 2,
+      "speed": 0
+    },
+    "interval": 0,
+    "soundEffects": {
+      "sound": "sleep"
+    },
+    "ttsInfo": {
+      "tts": ""
+    },
+    "antennalight": {
+      "antenna_light": "on",
+      "antenna_light_color": 4
+    },
+    "endGesture": false,
+    "expressionTime": 3
+  }
+]

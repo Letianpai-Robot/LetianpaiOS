@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RHJLauncher</string>
+    <string name="next_step">下一步</string>
+    <string name="battery_low">电量低，请充电</string>
+    <string name="wifi_is_disconnect">Wi-Fi已断开</string>
+    <string name="remote_start">远程变身即将开启-</string>
+    <string name="countdown">时间倒计时</string>
+    <string name="countdown_finish">计时结束\n共%s%s%s</string>
+    <string name="countdown_finish1">计时结束\n</string>
+    <string name="hour">小时</string>
+    <string name="minute">分钟</string>
+    <string name="second">秒</string>
+</resources>

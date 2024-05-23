@@ -1,0 +1,13 @@
+<resources>
+    <string name="wait_connect_wifi">Waiting…</string>
+    <string name="connecting_wifi">Connecting to Wi-Fi</string>
+    <string name="connect_success">connection succeeded</string>
+    <string name="connect_failed">Connection failed</string>
+    <string name="download_app">Scan QR code to add device\nRobot-</string>
+    <string name="download_app1">Add device after login</string>
+    <string name="next_step">Next step</string>
+    <string name="robot_info">Robot-</string>
+    <string name="guide_tips">Active the robot after viewing\nthe robot user guide in\nLetianpai App</string>
+    <string name="three_minutes_power_off"></string>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_left_view_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <com.renhejia.robot.clockview.SpineSkinView
+        android:id="@+id/ssv_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.renhejia.robot.clockview.SpineSkinView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/round_bg">
+
+    </ImageView>
+
+<!--    <com.renhejia.robot.expression.ui.view.RobotExpressionView-->
+<!--        android:id="@+id/expression_view"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"></com.renhejia.robot.expression.ui.view.RobotExpressionView>-->
+
+</RelativeLayout>
+

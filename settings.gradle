@@ -1,0 +1,44 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "LeTianPaiRobot"
+
+include ':LeTianPaiLauncher'
+include ':CommandLib'
+include ':LeTianPaiLauncherBusinessLib'
+include ':LeTianPaiLauncherBaseLib'
+include ':LeTianPaiExpression'
+include ':guideLib'
+include ':expression'
+//include ':actionfactory'
+include ':library'
+include ':displayview'
+include ':LetianpaiAudioService'
+include ':audio'
+include ':message'
+include ':player'
+//include ':LetianpaiMcuService'
+include ':GestureFactory'
+//include ':svgalibrary'
+//include ':LetianpaiService'
+include ':GeeUINotice'
+include ':FmodSound'
+//include ':QNetworkLib'
+
+//include ':LtpNetWork'
+//project(':LtpNetWork').projectDir = new File('LtpNetWork/app')
+//include ':GeeUICmdService'
+
+//include ':Components'
+//project(':Components').projectDir = new File('GeeUIComponents/Components')

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation duration="9750">
+    <frame drawable="background.png" frames="1">
+        <sub-frame drawable="eye.png">
+            <scale>
+                <step range="1" ratio="0" />
+                <step range="1" ratio="0.02293578" />
+                <step range="0.714285714" ratio="0.027522936" />
+                <step range="0.428571429" ratio="0.032110092" />
+                <step range="0.142857143" ratio="0.036697248" />
+                <step range="0.428571429" ratio="0.041284404" />
+                <step range="0.714285714" ratio="0.04587156" />
+                <step range="1" ratio="0.050458716" />
+                <step range="1" ratio="0.206422018" />
+                <step range="0.714285714" ratio="0.211009174" />
+                <step range="0.428571429" ratio="0.21559633" />
+                <step range="0.142857143" ratio="0.220183486" />
+                <step range="0.428571429" ratio="0.224770642" />
+                <step range="0.714285714" ratio="0.229357798" />
+                <step range="1" ratio="0.233944954" />
+                <step range="1" ratio="0.26146789" />
+                <step range="0.714285714" ratio="0.266055046" />
+                <step range="0.428571429" ratio="0.270642202" />
+                <step range="0.142857143" ratio="0.275229358" />
+                <step range="0.428571429" ratio="0.279816514" />
+                <step range="0.714285714" ratio="0.28440367" />
+                <step range="1" ratio="0.288990826" />
+                <step range="1" ratio="0.532110092" />
+                <step range="0.714285714" ratio="0.536697248" />
+                <step range="0.428571429" ratio="0.541284404" />
+                <step range="0.142857143" ratio="0.54587156" />
+                <step range="0.428571429" ratio="0.550458716" />
+                <step range="0.714285714" ratio="0.555045872" />
+                <step range="1" ratio="0.559633028" />
+                <step range="1" ratio="0.793577982" />
+                <step range="0.714285714" ratio="0.798165138" />
+                <step range="0.428571429" ratio="0.802752294" />
+                <step range="0.142857143" ratio="0.80733945" />
+                <step range="0.428571429" ratio="0.811926606" />
+                <step range="0.714285714" ratio="0.816513761" />
+                <step range="1" ratio="0.821100917" />
+                <step range="1" ratio="0.848623853" />
+                <step range="0.714285714" ratio="0.853211009" />
+                <step range="0.428571429" ratio="0.857798165" />
+                <step range="0.142857143" ratio="0.862385321" />
+                <step range="0.428571429" ratio="0.866972477" />
+                <step range="0.714285714" ratio="0.871559633" />
+                <step range="1" ratio="0.876146789" />
+                <step range="1" ratio="1" />
+            </scale>
+            <pivot>
+                <point ratio="0" x="240" y="240" />
+                <point ratio="0.0688" x="240" y="240" />
+                <point ratio="0.0871" x="260" y="260" />
+                <point ratio="0.1192" x="260" y="260" />
+                <point ratio="0.1376" x="240" y="260" />
+                <point ratio="0.1697" x="240" y="260" />
+                <point ratio="0.1881" x="220" y="260" />
+                <point ratio="0.2201" x="220" y="260" />
+                <point ratio="0.2385" x="220" y="220" />
+                <point ratio="0.2982" x="220" y="220" />
+                <point ratio="0.3165" x="240" y="220" />
+                <point ratio="0.3486" x="240" y="220" />
+                <point ratio="0.3669" x="260" y="220" />
+                <point ratio="0.3991" x="260" y="220" />
+                <point ratio="0.4174" x="240" y="240" />
+                <point ratio="0.4771" x="240" y="240" />
+                <point ratio="0.4954" x="260" y="240" />
+                <point ratio="0.5275" x="260" y="240" />
+                <point ratio="0.5459" x="220" y="240" />
+                <point ratio="0.5779" x="220" y="240" />
+                <point ratio="0.5963" x="240" y="240" />
+                <point ratio="0.6284" x="240" y="240" />
+                <point ratio="0.6468" x="220" y="220" />
+                <point ratio="0.6789" x="220" y="220" />
+                <point ratio="0.6972" x="240" y="240" />
+                <point ratio="0.7294" x="240" y="240" />
+                <point ratio="0.7477" x="240" y="260" />
+                <point ratio="0.7799" x="240" y="260" />
+                <point ratio="0.7982" x="220" y="260" />
+                <point ratio="0.8302" x="220" y="260" />
+                <point ratio="0.8486" x="220" y="240" />
+                <point ratio="0.8807" x="220" y="240" />
+                <point ratio="0.8991" x="220" y="220" />
+                <point ratio="0.9312" x="220" y="220" />
+                <point ratio="0.9673" x="260" y="220" />
+                <point ratio="0.9817" x="260" y="220" />
+                <point ratio="1" x="240" y="240" />
+            </pivot>
+        </sub-frame>
+    </frame>
+</animation>

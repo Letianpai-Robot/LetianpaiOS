@@ -1,0 +1,12 @@
+<resources>
+    <string name="wait_connect_wifi">Waiting…</string>
+    <string name="connecting_wifi">正在连接WLAN</string>
+    <string name="connect_success">连接成功</string>
+    <string name="connect_failed">连接失败</string>
+    <string name="download_app">Scan QR code to add device\nRobot-</string>
+    <string name="download_app1">打开手机添加设备</string>
+    <string name="next_step">下一步</string>
+    <string name="robot_info">Robot-</string>
+    <string name="guide_tips">请在乐天派App设备页，\n查看完机器人使用教程\n\n即可激活机器人，进行使用</string>
+    <string name="three_minutes_power_off">3分钟不绑定，将自动关机</string>
+</resources>

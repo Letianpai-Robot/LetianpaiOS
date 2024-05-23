@@ -1,0 +1,5 @@
+<resources>
+
+    <!--QrCode View -->
+    <dimen name="guide_text_size">32dp</dimen>
+</resources>

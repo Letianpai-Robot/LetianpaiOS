@@ -1,0 +1,297 @@
+[
+  {
+    "number": 1,
+    "motion": "forward",
+    "desc": "前进"
+  },
+  {
+    "number": 2,
+    "motion": "backend",
+    "desc": "后退"
+  },
+  {
+    "number": 5,
+    "motion": "left",
+    "desc": "螃蟹左"
+  },
+  {
+    "number": 6,
+    "motion": "right",
+    "desc": "螃蟹右"
+  },
+  {
+    "number": 21,
+    "motion": "leftRound",
+    "desc": "左转"
+  },
+  {
+    "number": 22,
+    "motion": "rightRound",
+    "desc": "右转"
+  },
+  {
+    "number": 0,
+    "motion": "setStraight",
+    "desc": "立正"
+  },
+  {
+    "number": 20,
+    "motion": "takeEasy",
+    "desc": "稍息"
+  },
+  {
+    "number": 7,
+    "motion": "shakeLeftLeg",
+    "desc": "左抖腿"
+  },
+  {
+    "number": 8,
+    "motion": "shakeRightLeg",
+    "desc": "右抖腿"
+  },
+  {
+    "number": 9,
+    "motion": "shakeLeftFoot",
+    "desc": "左抖脚"
+  },
+  {
+    "number": 10,
+    "motion": "shakeRightFoot",
+    "desc": "右抖脚"
+  },
+  {
+    "number": 23,
+    "motion": "shakeFoot",
+    "desc": "双抖脚"
+  },
+  {
+    "number": 24,
+    "motion": "shakeLiteFoot",
+    "desc": "微抖脚"
+  },
+  {
+    "number": 11,
+    "motion": "upRightFoot",
+    "desc": "右跷脚"
+  },
+  {
+    "number": 12,
+    "motion": "upLeftFoot",
+    "desc": "左跷脚"
+  },
+  {
+    "number": 13,
+    "motion": "leftLean",
+    "desc": "左倾"
+  },
+  {
+    "number": 14,
+    "motion": "rightLean",
+    "desc": "右倾"
+  },
+  {
+    "number": 15,
+    "motion": "stompLeftFoot",
+    "desc": "跺左脚"
+  },
+  {
+    "number": 16,
+    "motion": "stompRightFoot",
+    "desc": "跺右脚"
+  },
+  {
+    "number": 17,
+    "motion": "shakeUpDown",
+    "desc": "上下晃"
+  },
+  {
+    "number": 18,
+    "motion": "shakeLeftRight",
+    "desc": "左右晃"
+  },
+  {
+    "number": 19,
+    "motion": "shakeHead",
+    "desc": "摇头"
+  },
+  {
+    "number": 25,
+    "motion": "miniTurnLeft",
+    "desc": "微左转"
+  },
+  {
+    "number": 26,
+    "motion": "miniTurnRight",
+    "desc": "微右转"
+  },
+  {
+    "number": 27,
+    "motion": "sway",
+    "desc": "摇摆"
+  },
+  {
+    "number": 28,
+    "motion": "random28",
+    "desc": "随机动作28"
+  },
+  {
+    "number": 29,
+    "motion": "random29",
+    "desc": "随机动作29"
+  },
+  {
+    "number": 30,
+    "motion": "random30",
+    "desc": "随机动作30"
+  },
+  {
+    "number": 31,
+    "motion": "random31",
+    "desc": "随机动作31"
+  },
+  {
+    "number": 32,
+    "motion": "random32",
+    "desc": "随机动作32"
+  },
+  {
+    "number": 33,
+    "motion": "random33",
+    "desc": "随机动作33"
+  },
+  {
+    "number": 34,
+    "motion": "random34",
+    "desc": "随机动作34"
+  },
+  {
+    "number": 35,
+    "motion": "random35",
+    "desc": "随机动作35"
+  },
+  {
+    "number": 36,
+    "motion": "random36",
+    "desc": "随机动作36"
+  },
+  {
+    "number": 37,
+    "motion": "random37",
+    "desc": "随机动作37"
+  },
+  {
+    "number": 38,
+    "motion": "random38",
+    "desc": "随机动作38"
+  },
+  {
+    "number": 39,
+    "motion": "random39",
+    "desc": "随机动作39"
+  },
+  {
+    "number": 40,
+    "motion": "random40",
+    "desc": "随机动作40"
+  },
+  {
+    "number": 41,
+    "motion": "random41",
+    "desc": "随机动作41"
+  },
+  {
+    "number": 42,
+    "motion": "random42",
+    "desc": "随机动作42"
+  },
+  {
+    "number": 43,
+    "motion": "shakeHeadSmallAngle",
+    "desc": "摇头-小角度"
+  },
+  {
+    "number": 44,
+    "motion": "inclineL",
+    "desc": "左倾身"
+  },
+  {
+    "number": 45,
+    "motion": "inclineR",
+    "desc": "右倾身"
+  },
+  {
+    "number": 46,
+    "motion": "inclineSmallAngleL",
+    "desc": "左微倾身"
+  },
+  {
+    "number": 47,
+    "motion": "inclineSmallAngleR",
+    "desc": "右微倾身"
+  },
+  {
+    "number": 48,
+    "motion": "shakeFootQuick",
+    "desc": "双脚抖动-快速"
+  },
+  {
+    "number": 49,
+    "motion": "shakeFootInHalf",
+    "desc": "双脚内侧抖动"
+  },
+  {
+    "number": 50,
+    "motion": "twist",
+    "desc": "前后扭"
+  },
+  {
+    "number": 51,
+    "motion": "shakeFootSmallAngleL",
+    "desc": "左抬脚，抖脚"
+  },
+  {
+    "number": 52,
+    "motion": "shakeFootSmallAngleR",
+    "desc": "右抬脚，抖脚"
+  },
+  {
+    "number": 53,
+    "motion": "moveLeftOutHalf",
+    "desc": "左脚外翻"
+  },
+  {
+    "number": 54,
+    "motion": "moveRightOutHalf",
+    "desc": "右脚外翻"
+  },
+  {
+    "number": 55,
+    "motion": "turnLeftMiniHalf",
+    "desc": "左转-3度"
+  },
+  {
+    "number": 56,
+    "motion": "turnRightMiniHalf",
+    "desc": "右转-3度"
+  },
+  {
+    "number": 57,
+    "motion": "shakeRightMiniHalf",
+    "desc": "右脚微转"
+  },
+  {
+    "number": 58,
+    "motion": "inclineBigAngleR",
+    "desc": "大角度右侧身"
+  },
+  {
+    "number": 59,
+    "motion": "clampLegShakeFootIn",
+    "desc": "搓脚-双脚前后搓"
+  },
+  {
+    "number": 60,
+    "motion": "clampLegShakeFoot",
+    "desc": "搓脚-双脚前后碰"
+  }
+]

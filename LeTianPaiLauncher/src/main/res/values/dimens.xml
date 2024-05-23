@@ -1,0 +1,10 @@
+<resources>
+
+    <!--QrCode View -->
+    <dimen name="weather_text_size">32sp</dimen>
+    <dimen name="calendar_title_size">40sp</dimen>
+    <dimen name="calendar_time_size">24sp</dimen>
+
+    <dimen name="fans_name_title_size">35sp</dimen>
+
+</resources>

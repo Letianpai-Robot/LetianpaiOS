@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#fffc3c40</color>
+    <color name="dialog_sub_text_color">#737275</color>
+
+    <color name="message_title_color">#ffffff</color>
+    <color name="message_time_color">#666469</color>
+    <color name="message_description_color">#bcbcbd</color>
+    <color name="disable_text_color">#392287</color>
+    <color name="temperature_text_color">#006cef</color>
+    <color name="data_response_text_color">#006fb4</color>
+    <color name="message_bg_color">#242029</color>
+    <color name="main_text_color">#3478F6</color>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_left_view_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/tv_countdown_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/countdown"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130px"
+        android:visibility="gone"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:id="@+id/time_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="120sp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:id="@+id/time_count_down_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_marginTop="70px"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:text="计时结束\n共23小时59分59秒"
+        android:textColor="@color/white">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/clock"
+        android:layout_width="244px"
+        android:layout_height="244px"
+        android:layout_marginTop="144px"
+        android:layout_marginBottom="92px"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:src="@drawable/clock_countdown"
+        ></ImageView>
+
+</RelativeLayout>
